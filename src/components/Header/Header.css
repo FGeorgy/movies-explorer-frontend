@@ -18,6 +18,8 @@
 }
 
 .header__logo-img {
+  cursor: pointer;
+  opacity: .7;
 }
 
 .header__navigation-link {
