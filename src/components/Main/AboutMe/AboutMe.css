@@ -61,3 +61,37 @@
   grid-column: 2 / 3;
   grid-row: 1 / -1;
 }
+
+@media screen and (max-width: 1023px) {
+  .about-me {
+    padding: 90px 50px;
+  }
+
+  .about-me__description {
+    column-gap: 50px;
+  }
+
+  .about-me__name {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .about-me__subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about-me__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about-me__photo {
+    width: 255px;
+    height: 307px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+}

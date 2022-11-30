@@ -56,3 +56,25 @@
   background-color: #E8E8E8;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1023px) {
+  .techs {
+    padding: 90px 50px;
+  }
+  
+  .techs__subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .techs__stack-name {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 21px 0;
+    min-width: 84px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+}

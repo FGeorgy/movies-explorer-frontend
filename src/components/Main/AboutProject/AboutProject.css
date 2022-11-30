@@ -90,3 +90,18 @@
   line-height: 17px;
   color: #A0A0A0;
 }
+
+@media screen and (max-width: 1023px) {
+  .about-project {
+    padding: 90px 50px;
+  }
+
+  .about-project__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+}
