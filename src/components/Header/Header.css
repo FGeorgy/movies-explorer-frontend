@@ -113,5 +113,16 @@
 }
 
 @media screen and (max-width: 767px) {
-  
+  .header {
+    padding: 18px 14px
+  }
+
+  .header__profile-link {
+    font-size: 10px;
+    margin-right: 14px;
+  }
+
+  .header__profile-link_theme_black {
+    padding: 5px 12px;
+  }
 }

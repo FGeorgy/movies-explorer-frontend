@@ -3,7 +3,6 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 
-import Footer from '../Footer/Footer';
 import Login from '../Login/Login';
 import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
@@ -20,7 +19,7 @@ function App() {
         <Routes>
           <Route
             path='/'
-            element={<Main/>}
+            element={<Movies/>}
           />
         </Routes>
       </div>

@@ -3,17 +3,27 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .nav-tab__item {
   list-style: none;
   margin-right: 10px;
+  min-width: 96px;
+  min-height: 36px;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-tab__item:last-of-type {
+  margin-right: 0;
 }
 
 .nav-tab__link {
-  padding: 10px 23px;
-  background-color: #E8E8E8;
-  border-radius: 10px;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -26,4 +36,16 @@
 .nav-tab__link:hover {
   cursor: pointer;
   opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-tab__item {
+    min-width: 82px;
+    min-height: 26px;
+    margin-right: 6px;
+  }
+
+  .nav-tab__link {
+    font-size: 10px;
+  }
 }

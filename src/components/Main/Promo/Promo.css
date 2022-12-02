@@ -6,7 +6,7 @@
   min-height: 493px;
   background-color: #F5F5F5;
   border-radius: 10px;
-  padding: 30px 0;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +23,7 @@
   color: #000000;
   text-align: center;
   flex: 0.5 0 auto;
+  letter-spacing: -0.04em;
 }
 
 @media screen and (max-width: 1023px) {
@@ -37,5 +38,16 @@
 }
 
 @media screen and (max-width: 767px) {
-  
+  .promo {
+    padding: 14px 14px 0;
+  }
+
+  .promo__title {
+    font-size: 29px;
+    line-height: 37px;
+  }
+
+  .promo__wrapper {
+    padding: 17px;
+  }
 }
