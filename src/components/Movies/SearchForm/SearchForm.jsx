@@ -5,7 +5,7 @@ function SearchForm() {
     <section className="search-form">
       <form className="search-form__form">
         <fieldset className="search-form__fieldset">
-          <label className="search-form__label">
+          <label className=" search-form__label search-form__label-search">
             <input
               type="search"
               className="search-form__input"
@@ -15,12 +15,12 @@ function SearchForm() {
             <button type="submit" className="search-form__submit"/>
           </label>
         </fieldset>
-        <label className="search-form__label">
+        <label className="search-form__label search-form__label-checkbox">
+          Короткометражки
           <input
             type="checkbox"
-            className="serach-form__switch"
+            className="search-form__switch"
           />
-          Короткометражки
         </label>
       </form>
     </section>

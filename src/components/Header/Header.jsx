@@ -13,17 +13,16 @@ function Header({ loggedIn }) {
           <NavLink
             to='#'
             className='header__navigation-link header__navigation-link_weight_medium'
-            activeClassName='header__navigation-link_active'
           >
             Фильмы
           </NavLink>
           <NavLink
             to='#'
-            className='header__navigation-link'
-            activeClassName='header__navigation-link_active'
+            className='header__navigation-link header__navigation-link_active'
           >
             Сохранённые фильмы
           </NavLink>
+          <button className="header__burger"/>
         </div>
       )}
       <div className='header__profile'>

@@ -47,7 +47,24 @@
 }
 
 .header__navigation-link_active {
-  border-bottom: #000000 2px;
+  border-bottom: 2px solid #000000;
+}
+
+.header__burger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background-image: url(../../images/icon__menu.svg);
+  background-position: center;
+  border: none;
+  background-color: inherit;
+  transition: opacity .3s ease;
+}
+
+.header__burger:hover {
+  cursor: pointer;
+  opacity: .7;
 }
 
 .header__profile-button {
@@ -109,6 +126,18 @@
 @media screen and (max-width: 1023px) {
   .header {
     padding: 18px 30px;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .header__navigation-link {
+    display: none;
+  }
+
+  .header__profile {
+    display: none;
   }
 }
 
