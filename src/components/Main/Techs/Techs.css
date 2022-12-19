@@ -31,16 +31,16 @@
   list-style: none;
   margin: 100px 0 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 10px;
   justify-content: center;
-
+  flex-wrap: wrap;
 }
 
 .techs__stack-item {
-  min-width: 90px;
-  min-height: 60px;
+  width: 90px;
+  height: 60px;
   background-color: #E8E8E8;
   border-radius: 10px;
   display: flex;
@@ -73,6 +73,11 @@
     font-size: 14px;
     line-height: 17px;
   }
+
+  .techs__stack-item {
+    width: 84px;
+    height: 57px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -97,11 +102,6 @@
 
   .techs__stack {
     margin: 50px 50px 0;
-  }
-
-  .techs__stack-item {
-    min-width: 84px;
-    min-height: 57px;
   }
 
   .techs__stack-name {

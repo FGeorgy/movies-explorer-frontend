@@ -3,7 +3,7 @@ import photo from '../../../images/profile.jpg';
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about-me">
       <h2 className='title'>Студент</h2>
       <article className="about-me__description">
         <h3 className="about-me__name">Георгий</h3>
