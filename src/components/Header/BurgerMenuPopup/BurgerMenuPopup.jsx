@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function BurgerMenuPopup() {
   return (
-    <div className="burger-menu burger-menu_active">
+    <div className="burger-menu">
       <div className="burger-menu__wrapper">
         <button className="burger-menu__close-button"/>
         <nav className="burger-menu__navigation">

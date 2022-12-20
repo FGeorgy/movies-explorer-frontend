@@ -2,19 +2,19 @@ import './SavedMovies.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import SearchForm from '../Movies/SearchForm/SearchForm';
-import MoviesCard from '../Movies/MoviesCard/MoviesCard';
+import MoviesCardList from '../Movies/MoviesCardList/MoviesCardList';
 
 function SavedMovies() {
-return (
-  <>
-    <Header/>
-    <SearchForm/>
-    <section className="saved-movies">
-      <MoviesCard/>
-    </section>
-    <Footer/>
-  </>
-)
+  return (
+    <>
+      <Header/>
+      <main>
+        <SearchForm/>
+        <MoviesCardList/>
+      </main>
+      <Footer/>
+    </>
+  )
 };
 
 export default SavedMovies;

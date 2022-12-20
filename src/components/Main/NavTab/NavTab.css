@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
-  column-gap: 10px;
+  gap: 10px;
 }
 
 .nav-tab__item {
@@ -36,13 +36,15 @@
 }
 
 @media screen and (max-width: 767px) {
-  .nav-tab__item {
-    min-width: 82px;
-    min-height: 26px;
-    margin-right: 6px;
+  .nav-tab__list {
+    gap: 6px;
   }
 
   .nav-tab__link {
     font-size: 10px;
+    width: 76px;
+    height: 26px;
+    border-radius: 6px;
+    padding-top: 5px;
   }
 }

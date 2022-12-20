@@ -9,8 +9,10 @@ function Movies() {
   return (
     <>
       <Header loggedIn={ true }/>
-      <SearchForm/>
-      <MoviesCardList/>
+      <main>
+        <SearchForm/>
+        <MoviesCardList/>
+      </main>
       <Footer/>
     </>
   )
